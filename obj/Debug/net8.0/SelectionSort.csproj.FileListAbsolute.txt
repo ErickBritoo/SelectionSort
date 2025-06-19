@@ -12,3 +12,4 @@ D:\dev\C#\AlgoritmosOrdenacao\SelectionSort\obj\Debug\net8.0\refint\SelectionSor
 D:\dev\C#\AlgoritmosOrdenacao\SelectionSort\obj\Debug\net8.0\SelectionSort.pdb
 D:\dev\C#\AlgoritmosOrdenacao\SelectionSort\obj\Debug\net8.0\SelectionSort.genruntimeconfig.cache
 D:\dev\C#\AlgoritmosOrdenacao\SelectionSort\obj\Debug\net8.0\ref\SelectionSort.dll
+D:\dev\C#\AlgoritmosOrdenacao\SelectionSort\obj\Debug\net8.0\SelectionSort.sourcelink.json

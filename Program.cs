@@ -6,25 +6,32 @@
         {
             int[] arr = new int[5] { 15, 3, 7, 1, 5};
             arr = SelectionSort(arr);
-            foreach (var item in arr)
-            {
-                Console.Write(item + " ");
-            }
+         
         }
 
         static int[] SelectionSort(int[] arr) {
             for (int i = 0; i < arr.Length; i++)
             {
-                int menorElement = arr[i];
-                for (int j = 0; j < arr.Length; j++)
+                foreach (var item in arr)
                 {
-                    if (menorElement < arr[j])
+                    Console.Write(item + " ");
+                }
+
+                Console.WriteLine();
+                int menorIndex = i;
+
+                for (int j = i + 1; j < arr.Length; j++)
+                {
+
+                    if (arr[j] < arr[menorIndex])
                     {
-                        int aux = arr[j];
-                        arr[j] = arr[i];
-                        arr[i] = aux;
+                        menorIndex = j;
                     }
                 }
+
+                int aux = arr[menorIndex];
+                arr[menorIndex] = arr[i];
+                arr[i] = aux;
             }
             return arr;
         }
